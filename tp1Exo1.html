@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>formulaire</title>
+  <link rel="stylesheet" href="tp1Exo1.css">
+</head>
+<body>
+
+
+  <form id="quiz" autocomplete="off">
+    <h1 id="Title">Tp1 develepement web  </h1 >
+
+    <div>
+      <h3>1) Que veut dire HTML ?</h3>
+      <label><input type="radio" name="q1" value="Hyper Text Markup Language">Hyper Text Markup Language</label><br>
+      <label><input type="radio" name="q1" value="Home Text Main Link"> Home Text Main Link</label><br>
+      <label><input type="radio" name="q1" value="High Tech Modern Language"> High Tech Modern Language</label>
+      <hr>
+      
+    </div>
+
+    <div>
+      <h3>2) Que fait la balise &lt;a&gt; ?</h3>
+      <label><input type="radio" name="q2" value="Met le texte en gras"> Met le texte en gras</label><br>
+      <label><input type="radio" name="q2" value="Met le texte en italique"> Met le texte en italique</label><br>
+      <label><input type="radio" name="q2" value="Crée un lien"> Crée un lien </label>
+      <hr>
+    </div>
+
+    <div>
+      <h3>3) Quel(s) sont des langages front-end ? (plusieurs réponses possibles)</h3>
+      <label><input type="checkbox" name="q3" value="c++"> C++</label><br>
+      <label><input type="checkbox" name="q3" value="html"> HTML</label><br>
+      <label><input type="checkbox" name="q3" value="css"> CSS</label>
+      <hr>
+    </div>
+
+    <div>
+      <h3>4) Quelles villes sont marocaines ? (plusieurs réponses possibles)</h3>
+      <label><input type="checkbox" name="q4" value="rabat"> rabat</label><br>
+      <label><input type="checkbox" name="q4" value="fes"> Fès</label><br>
+      <label><input type="checkbox" name="q4" value="sfax"> Sfax</label>
+      <hr>
+    </div>
+
+    <div>
+      <h3>5) Quels sont des systèmes d'exploitation ? (plusieurs réponses possibles)</h3>
+      <label><input type="checkbox" name="q5" value="android"> Android</label><br>
+      <label><input type="checkbox" name="q5" value="linux"> Linux</label><br>
+      <label><input type="checkbox" name="q5" value="samsung"> samsung</label>
+      <hr>
+    </div>
+
+    <div>
+      <button class="btnenvoyer" type="submit">Envoyer</button>
+      <button class="btnrien" type="reset">Réinitialiser</button>
+      <button type="button" id="btnSolution">Solution</button>
+    </div>
+   
+   <details>
+      
+      <summary >click ici pour plus details</summary>
+          <p>Le but de cet exercice est de réaliser un questionnaire de type QCM en
+ HTMLetJavaScript. <br>
+ • Un formulaire (ou questionnaire) sous forme de QCM et utilisant
+ les objets du langage JavaScript,<br>
+ • une procédure de correction dynamique du questionnaire (écrit en
+ JavaScript) <br>
+ • Uncorrigécomplet du test dans une page <br>
+ • Le QCM doit contenir 5 questions, 3 à choix multiples et 2 à choix
+ simples. Le formulaire doit contenir aussi 3 boutons : <br>
+ • Bouton pour initialiser le QCM <br>
+ • Bouton pour afficher, dans une nouvelle fenêtre, toutes les questions et les
+ réponses du QCM. (les réponses justes sont soulignées et colorées par une
+ couleur verte). <br>
+ • Boutonqui affiche dans une nouvelle fenêtre le résultat de test
+ • Parexemple : <br>
+ •- la réponse de la question 1 est correcte- la réponse de la question 2 est incorrecte <br>
+ • Lesdimensions des fenêtres sont ajustées selon le contenu</p>
+  </details>
+    
+      
+  </form>
+  <script src="tp1Exo1.js"> </script>
+  
+</body>
+</html>

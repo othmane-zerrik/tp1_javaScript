@@ -1,0 +1,72 @@
+ body {
+      background-color: #fffaf0;
+    }
+    @keyframes floatTitle {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-5px); }
+  50%  { transform: translateY(0); }
+  75%  { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}
+
+
+summary:hover {
+  color: #c49a6c;
+
+}
+
+
+#Title {
+  text-align: center;
+  color: #8c143e; 
+  animation: floatTitle 3s ease-in-out infinite;
+}
+
+    form#quiz {
+      background-color: beige;
+      width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(230, 32, 32, 0.12);
+       border:3px dashed rgb(128, 0, 21);
+    }
+      form#quiz:hover {
+  border-color: violet;
+  box-shadow: 0 0 20px violet, 0 0 40px cyan;
+  transform: scale(1.02);
+}
+
+    h3 { color:#4a148c; margin-bottom: 6px; }
+    form {
+  border: 3px solid rgb(7, 7, 40);
+  border-radius: 20px; 
+  padding: 30px;
+ }
+    hr { margin: 14px 0; }
+
+   
+
+    button { 
+      transition: 0.3s ease;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+
+    .btnenvoyer { background-color:chartreuse; }
+    .btnrien { background-color: red; color: white; }
+     button:hover{
+      box-shadow: -5px -5px 23px violet, 5px 5px 23px blue;
+    }
+    @keyframes floating {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+button {
+  animation: floating 3s ease-in-out infinite;
+}
